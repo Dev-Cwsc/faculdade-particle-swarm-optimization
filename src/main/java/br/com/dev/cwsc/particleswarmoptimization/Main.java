@@ -1,5 +1,5 @@
 package br.com.dev.cwsc.particleswarmoptimization;
-/**/
+
 import javax.swing.JOptionPane;
 import java.awt.BorderLayout;
 
@@ -65,7 +65,6 @@ public class Main extends javax.swing.JFrame {
         initComponents();
     }
 
-    @SuppressWarnings("unchecked")
     private void initComponents() {
         jInternalFrame1 = new javax.swing.JInternalFrame();
         btng_terrenos = new javax.swing.ButtonGroup();
@@ -380,7 +379,7 @@ public class Main extends javax.swing.JFrame {
 
     private void btn_sobreActionPerformed(java.awt.event.ActionEvent evt) {
         JOptionPane.showMessageDialog(null," Otimização por Enxame de Partículas (Particle Swarm Optimization) \n "
-                + "Programadores: Carlos Willian Silva && Vitor Daniel Leal"
+                + "Desenvolvido por: Carlos Willian Silva Camargos && Vitor Daniel Leal"
                 + "\n Professor: Ciniro Nametala \n Disciplina: Programação Orientada a Objetos.");
     }
 
